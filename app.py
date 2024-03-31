@@ -32,6 +32,7 @@ class healthCardOCR:
         
 
 if __name__ == '__main__':
+    # 可直接輸入圖片路徑
     img = cv2.imread('test_noID.jpg')
     a = healthCardOCR()
     recoder = a.scan(img)
